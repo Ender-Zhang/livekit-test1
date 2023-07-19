@@ -2,7 +2,7 @@
  * @Author: Ender-Zhang 102596313+Ender-Zhang@users.noreply.github.com
  * @Date: 2023-03-24 17:30:58
  * @LastEditors: Ender-Zhang 102596313+Ender-Zhang@users.noreply.github.com
- * @LastEditTime: 2023-05-16 08:34:42
+ * @LastEditTime: 2023-06-03 08:39:17
  * @FilePath: \mobile-end\interaction\screens\SurveyPage.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AEo
  */
@@ -64,10 +64,10 @@ function SurveyScreen({ route, navigation } : any) {
     }, [navigation]);
     return (
         <NativeBaseProvider >
-            {/* <Text>Pre-Survey</Text>
+            <Text>Pre-Survey</Text>
             <SurveyList/>
           
-            <Flex direction="row" alignItems="center" justifyContent="center">
+            {/* <Flex direction="row" alignItems="center" justifyContent="center">
               <Spacer />
               <Button onPress={() => navigation.navigate('MainScreen',{ task_id:task_id})} size="lg" flex={1}>Cancel</Button>
               <Spacer />

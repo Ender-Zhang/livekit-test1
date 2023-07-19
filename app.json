@@ -15,6 +15,7 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "con.test.demo",
       "supportsTablet": true
     },
     "android": {
